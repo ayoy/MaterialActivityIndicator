@@ -1,5 +1,5 @@
 PODS:
-  - MaterialActivityIndicator (0.0.6.2)
+  - MaterialActivityIndicator (0.0.7)
 
 DEPENDENCIES:
   - MaterialActivityIndicator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MaterialActivityIndicator: d580f827bda6f71ec97f08b4853a102ed12617d9
+  MaterialActivityIndicator: d0b193324848385a1dafa7efba6bdcfafa26c4fd
 
 PODFILE CHECKSUM: c32132d07037ce7331cb99fe7eece6783c2dce24
 
