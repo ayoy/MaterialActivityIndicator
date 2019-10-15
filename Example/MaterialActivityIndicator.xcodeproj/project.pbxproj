@@ -174,7 +174,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				0E59C7CCBB51E698D49CE1C5 /* [CP] Embed Pods Frameworks */,
-				3DEA3BE920334884007691F8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -211,6 +210,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -252,7 +252,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator-iOS/MaterialActivityIndicator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaterialActivityIndicator_Example/Pods-MaterialActivityIndicator_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		238A072FB93DC781B889FE19 /* [CP] Embed Pods Frameworks */ = {
@@ -269,35 +269,18 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator-tvOS/MaterialActivityIndicator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialActivityIndicator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaterialActivityIndicatorTV_Example/Pods-MaterialActivityIndicatorTV_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		3DEA3BE920334884007691F8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
 		};
 		443360B64CED91957521391D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
